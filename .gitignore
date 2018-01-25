@@ -1,0 +1,24 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# IDE project config files
+.idea/*
+
+# vscode chrome debug files
+.vscode/*
+
+# dependencies
+/node_modules
+.chrome/*
+# testing
+/coverage
+
+# production
+/build
+/dist/bundle.js
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json

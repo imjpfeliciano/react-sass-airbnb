@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+      "react",
+      "jsx-a11y",
+      "import"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": false }],
+    "jsx-a11y/img-has-alt": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "arrow-body-style": ["error", "always"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "eol-last": ["error", "always"]
+  },
+  "env": {
+      "browser": true,
+      "node": true
+  },
+  "globals": {
+    "document": false
+  }
+}
