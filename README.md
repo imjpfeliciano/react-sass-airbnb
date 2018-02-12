@@ -9,6 +9,7 @@ React-SASS-AirBnB is a project that provides you a boilerplate tool for React fo
 * All code following Airbnb's Javascript (ES6) style guide.
 * Webpack dev server with automatic reloading. Just need to run `$ npm start`.
 * Deployment build with `$ npm run build -p`
+* Pre-commit script to prevent commit files that could break your app in production
 
 # Components
 * [Babel](https://babeljs.io/)
