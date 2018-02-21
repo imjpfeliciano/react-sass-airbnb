@@ -18,13 +18,19 @@
   }
 
   .logos {
-    img {
-      display: block;
-      margin: auto;
-      height: 80px;
-      width: auto;
-      margin-bottom: 20px;
-      margin-top: 20px;
+    width: 100%;
+
+    .row {
+      margin-right: 0;
+
+      img {
+        display: block;
+        margin: auto;
+        height: 80px;
+        width: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
     }
   }
 }
