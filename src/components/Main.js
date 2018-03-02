@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './header';
-import Inicio from './inicio';
-import Convocatoria from './convocatoria';
-import Resultados from './resultados';
-import Material from './material';
-import Anuncios from './anuncios';
-import Contacto from './contacto';
+import Home from './home';
+import Application from './application';
+import Results from './results';
+import Resources from './resources';
+import Announcements from './announcements';
+import Contact from './contact';
 
 
 class Main extends Component {
@@ -15,12 +15,12 @@ class Main extends Component {
       <div className='container-fluid'>
         <Header />
         <Switch>
-          <Route path='/convocatoria' component={Convocatoria} />
-          <Route path='/resultados' component={Resultados} />
-          <Route path='/material' component={Material} exact />
-          <Route path='/anuncios' component={Anuncios} />
-          <Route path='/contacto' component={Contacto} />
-          <Route path='/' component={Inicio} exact />
+          <Route path='/convocatoria' component={Application} />
+          <Route path='/resultados' component={Results} />
+          <Route path='/material' component={Resources} exact />
+          <Route path='/anuncios' component={Announcements} />
+          <Route path='/contacto' component={Contact} />
+          <Route path='/' component={Home} exact />
         </Switch>
       </div>
     );
