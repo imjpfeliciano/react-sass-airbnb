@@ -12,7 +12,7 @@ import Contact from './contact';
 class Main extends Component {
   render() {
     return (
-      <div className='container-fluid'>
+      <div>
         <Header />
         <Switch>
           <Route path='/convocatoria' component={Application} />
