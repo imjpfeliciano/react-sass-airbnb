@@ -1,28 +1,12 @@
-# react-sass-airbnb
+# OMI-QROO-FRONT
 
-React-SASS-AirBnB is a project that provides you a boilerplate tool for React following the [Airbnb's Javascript (ES6) Style Guide](https://github.com/airbnb/javascript), and including some features that allows you to use SASS as your style tool in the app.
-
-# Features
-* Simple `/dist/index.html` loading `bundle.js`.
-* Starter `/src/index.js` for React.
-* Starter `/src/_global.scss` for style your app.
-* All code following Airbnb's Javascript (ES6) style guide.
-* Webpack dev server with automatic reloading. Just need to run `$ npm start`.
-* Deployment build with `$ npm run build -p`
-* Pre-commit script to prevent commit files that could break your app in production
-
-# Components
-* [Babel](https://babeljs.io/)
-* [ESlint](https://eslint.org/)
-* [React](https://reactjs.org/)
-* [Webpack](https://webpack.js.org/)
-* [SASS](http://sass-lang.com/)
+OMI-QROO-FRONT is a project that aims,to report all the relevant information about the Quintana Roo Olympiad in Informatics, this project follows the Style Guide of [Airbnb's Javascript (ES6)] (https://github.com/airbnb/javascript), and includes some features that allow it use SASS as your style tool in the application.
 
 # Getting start
 Just run the following commands in your terminal to start coding
 ```bash
-$ git clone https://github.com/yoniihdc/react-sass-airbnb
-$ cd react-sass-airbnb
+$ git clone https://github.com/cancunDevs/omiqroo-front
+$ cd omiqroo-front
 $ npm install
 $ npm start
 ```
@@ -39,4 +23,4 @@ Then just copy all files inside `/dist` folder and put all of them in your serve
 
 # Contributing
 
-This project is an initiative to make easier the way you create a react app, feel free to propose new things and changes that help us with this task, you can read our [CONTRIBUTE.md](CONTRIBUTE.md) for more information.
+This project is an initiative to promote the Mexican Olympiad in Informatics in Quintana Roo,Mexico.Feel free to propose new things and changes that help us with this task, you can read our [CONTRIBUTE.md](CONTRIBUTE.md) for more information.
